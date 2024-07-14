@@ -69,10 +69,10 @@ function Skills() {
   return (
     <section
       name="skills"
-      className="mx-auto flex h-dvh flex-col items-center justify-center bg-[#f5f7e8] px-4"
+      className="mx-auto flex flex-col items-center justify-center bg-[#f5f7e8] px-4 py-12"
     >
-      <h2 className="pb-3 text-4xl font-bold sm:-mt-32 sm:text-5xl">Skills</h2>
-      <div className="grid w-full gap-4 sm:grid-cols-2 md:grid-cols-3">
+      <h2 className="pb-8 text-4xl font-bold sm:text-5xl">Skills</h2>
+      <div className="grid w-full gap-8 sm:grid-cols-2 md:grid-cols-3">
         {techStack.map(({ id, src, title, desc }) => (
           <div
             key={id}
