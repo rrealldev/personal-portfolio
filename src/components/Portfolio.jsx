@@ -72,7 +72,7 @@ function Portfolio() {
                 />
                 <div className="p-4">
                   <h3 className="mb-2 text-xl font-bold">{name}</h3>
-                  <p className="mb-4 max-w-full truncate text-xs leading-tight text-gray-700">
+                  <p className="mb-4 max-w-full truncate text-xs leading-tight text-gray-700 hover:h-auto hover:overflow-visible hover:whitespace-normal">
                     {description}
                   </p>
                   <div className="flex justify-between gap-4 text-center">
