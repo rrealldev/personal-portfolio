@@ -2,7 +2,7 @@ function About() {
   return (
     <section
       name="about"
-      className="flex h-dvh flex-col items-center justify-center bg-[#D7E2C4]"
+      className="flex h-screen flex-col items-center justify-center bg-[#D7E2C4]"
     >
       <div className="mx-auto max-w-screen-lg px-4">
         <h2 className="mt-7 text-4xl font-bold sm:text-5xl">About Me</h2>
