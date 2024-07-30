@@ -9,10 +9,10 @@ function Home() {
           Hey, I&apos;m Gabby.
         </h2>
         <p className="max-w-2xl py-4 text-lg text-gray-500 sm:text-center">
-          Aspiring Full Stack Developer. Bringing a blend of creativity and
-          technical expertise to every project. Dedicated to continuous learning
-          and staying updated with the latest industry trends to deliver
-          innovative and effective solutions.
+          Full Stack Developer. Bringing a blend of creativity and technical
+          expertise to every project. Dedicated to continuous learning and
+          staying updated with the latest industry trends to deliver innovative
+          and effective solutions.
         </p>
 
         <div className="mt-4 flex max-w-full flex-col justify-center gap-8 py-4 sm:w-full md:flex-row md:gap-8">
@@ -25,7 +25,7 @@ function Home() {
             Learn more
           </Link>
           <a
-            href="/Gabriel-John-Perez-Resume.pdf"
+            href="/Gabriel_John_Perez_Resume.pdf"
             download
             className="flex items-center justify-center rounded-lg bg-[#6D9773] px-3 py-5 text-white hover:bg-[#557d58] md:w-72"
           >
